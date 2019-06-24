@@ -1,3 +1,3 @@
 <pre><code>$npm install</code></pre>
-##bulid
+<pre><code>##bulid</code></pre>
 <pre><code>$gulp</code></pre>
