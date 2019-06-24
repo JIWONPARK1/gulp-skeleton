@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/**
+  2019
+  nextculture 
+  common.css 
+ */
+
+/**
+  font
+ */
+
+
+/**
+  color
+ */
+
+// ex) $red: #d92b31;
+
+
+/**
+  include
+
+  ex) 
+    @mixin position($top,$left) {
+      position: absolute;
+      top: $top;
+      left: $left;
+      transform: translate(-$left, -$top);
+    }
+ */
+
+
+ 
+/**
+  skip navigation
+ */
+.skip-navigation a {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  z-index: 5000;
+  width: 100%;
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, .6);
+  color: #fff;
+  font-size: 15px;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, .5);
+  text-align: center;
+
+  &:focus, &:hover, &:active {
+    top: -144px;
+  }
+}
