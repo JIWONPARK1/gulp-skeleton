@@ -11,22 +11,22 @@ const merge = require('merge-stream');
 
 const paths = {
     style : {
-        src : 'public/scss/**/style.scss',
-        wholeSrc :'public/scss/**/*.scss',
-        dist : 'public/css'
+        src : 'resources/scss/**/style.scss',
+        wholeSrc :'resources/scss/**/*.scss',
+        dist : 'resources/css'
     },
     html : {
-        src :'public/**/**/**/*.html',
+        src :'resources/**/**/**/*.html',
         dist : 'dist/'
     },
     js : {
-        src :'public/js/es6/**/*.js',
-        dist : 'public/js'
+        src :'resources/js/es6/**/*.js',
+        dist : 'resources/js'
     },
     sprite : {
-        src :'public/images/sprite/**/*.png',
-        dist :'public/images' ,
-        distScss : 'public/scss'
+        src :'resources/images/sprite/**/*.png',
+        dist :'resources/images' ,
+        distScss : 'resources/scss'
     }
 
 };
