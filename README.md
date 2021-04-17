@@ -8,7 +8,6 @@
 - browserSync
 - html includer
 - javascript babel(es5 > es6)
-- 
 
 ## 사용법
 
